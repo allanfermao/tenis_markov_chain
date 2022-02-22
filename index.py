@@ -1,3 +1,4 @@
+from unittest import result
 import numpy as np
 
 class Node:
@@ -20,8 +21,33 @@ def simulacao(players, node0, p, q):
             currentNode = currentNode.p            
         else: currentNode = currentNode.q
         print(currentNode.label)
+    return result
 
-def main(p, q):
+def setVerify(games):    
+    if 7 in games.values():
+        player = 'A' if games['A'] == 7 else 'B'
+        games['A'] = 0
+        games['B'] = 0
+        print(player + ' Wins Set\n')
+        return player
+    if 6 in games.values() and abs(games['A'] - games['B']) >= 2:
+        player = 'A' if games['A'] == 6 else 'B'
+        games['A'] = 0
+        games['B'] = 0
+        print(player + ' Wins Set\n')
+        return player
+    return 0   
+
+def matchVerify(sets):
+    if 2 in sets.values():
+        player = 'A' if sets['A'] == 2 else 'B'
+        sets['A'] = 0
+        sets['B'] = 0
+        print(player + ' Wins Match')
+        return player
+    else: return 0
+
+def main(p, q, n_simm):
     players = ['P','Q']
     labels = ['0-0',
                '15-Love','Love-15',
@@ -49,6 +75,23 @@ def main(p, q):
     grafo[14].pointers(grafo[13],grafo[11])
     grafo[15].pointers(grafo[11],grafo[16])
 
-    simulacao(players, grafo[0], p, q)
+    games = {'A': 0, 'B': 0}
+    sets = {'A': 0, 'B': 0}
+    matches = {'A': 0, 'B': 0}
 
-main(0.9, 0.1)
+    for i in range(0, n_simm):
+        resultMatch = 0
+        while resultMatch == 0: # enquanto a partida não termina
+            resultSet = 0
+            while resultSet == 0: # enquanto o set não termina, continua executando games
+                if simulacao(players, grafo[0], p, q) == 'P':
+                    games['A'] += 1
+                else: games['B'] += 1
+                resultSet = setVerify(games)
+            sets[resultSet] += 1
+            resultMatch = matchVerify(sets)
+        matches[resultMatch] += 1
+    print(matches)
+        
+
+main(0.9, 0.1, 2)
