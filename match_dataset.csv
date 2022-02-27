@@ -1,0 +1,361 @@
+Partida,Simulacao,Set,Game,Vencedor,Pontos
+1,1,1,1,A,0-0 Love-15 15-15 30-15 40-15 A Wins
+1,1,1,2,A,0-0 15-Love 30-Love 40-Love 40-15 A Wins
+1,1,1,3,A,0-0 15-Love 30-Love 40-Love A Wins
+1,1,1,4,A,0-0 Love-15 15-15 15-30 Deuce Adv. A A Wins
+1,1,1,5,B,0-0 Love-15 15-15 15-30 15-40 B Wins
+1,1,1,6,B,0-0 Love-15 Love-30 15-30 15-40 Adv. B B Wins
+1,1,1,7,A,0-0 Love-15 15-15 30-15 Deuce Adv. A A Wins
+1,1,1,8,A,0-0 15-Love 15-15 30-15 Deuce Adv. A A Wins
+1,1,2,1,A,0-0 Love-15 15-15 15-30 Deuce Adv. A Deuce Adv. A A Wins
+1,1,2,2,A,0-0 15-Love 30-Love 40-Love A Wins
+1,1,2,3,A,0-0 15-Love 30-Love 40-Love A Wins
+1,1,2,4,B,0-0 Love-15 15-15 15-30 15-40 Adv. B Deuce Adv. A Deuce Adv. B Deuce Adv. A Deuce Adv. B B Wins
+1,1,2,5,A,0-0 15-Love 30-Love 30-15 Deuce Adv. B Deuce Adv. A A Wins
+1,1,2,6,A,0-0 15-Love 30-Love 30-15 40-15 A Wins
+1,1,2,7,A,0-0 15-Love 30-Love 30-15 40-15 A Wins
+1,2,1,1,A,0-0 15-Love 15-15 15-30 Deuce Adv. A A Wins
+1,2,1,2,A,0-0 Love-15 15-15 30-15 Deuce Adv. A Deuce Adv. A A Wins
+1,2,1,3,A,0-0 15-Love 15-15 30-15 40-15 Adv. A A Wins
+1,2,1,4,A,0-0 15-Love 30-Love 30-15 40-15 A Wins
+1,2,1,5,A,0-0 15-Love 30-Love 40-Love 40-15 Adv. A A Wins
+1,2,1,6,A,0-0 Love-15 15-15 30-15 40-15 Adv. A A Wins
+1,2,2,1,A,0-0 Love-15 15-15 30-15 40-15 Adv. A A Wins
+1,2,2,2,A,0-0 Love-15 15-15 30-15 40-15 A Wins
+1,2,2,3,A,0-0 Love-15 15-15 15-30 15-40 Adv. B Deuce Adv. A A Wins
+1,2,2,4,A,0-0 15-Love 30-Love 30-15 40-15 Adv. A A Wins
+1,2,2,5,A,0-0 15-Love 30-Love 40-Love A Wins
+1,2,2,6,A,0-0 15-Love 30-Love 30-15 Deuce Adv. A A Wins
+1,3,1,1,A,0-0 15-Love 30-Love 40-Love A Wins
+1,3,1,2,A,0-0 15-Love 30-Love 30-15 Deuce Adv. A Deuce Adv. A A Wins
+1,3,1,3,A,0-0 15-Love 30-Love 30-15 40-15 A Wins
+1,3,1,4,A,0-0 15-Love 30-Love 40-Love 40-15 A Wins
+1,3,1,5,A,0-0 15-Love 15-15 30-15 40-15 Adv. A A Wins
+1,3,1,6,A,0-0 15-Love 30-Love 40-Love A Wins
+1,3,2,1,A,0-0 15-Love 30-Love 40-Love 40-15 Adv. A A Wins
+1,3,2,2,A,0-0 15-Love 30-Love 30-15 40-15 A Wins
+1,3,2,3,A,0-0 15-Love 30-Love 30-15 40-15 A Wins
+1,3,2,4,A,0-0 Love-15 15-15 30-15 Deuce Adv. A Deuce Adv. B Deuce Adv. A A Wins
+1,3,2,5,A,0-0 15-Love 30-Love 40-Love 40-15 Adv. A A Wins
+1,3,2,6,A,0-0 15-Love 30-Love 40-Love A Wins
+1,4,1,1,A,0-0 15-Love 15-15 30-15 40-15 A Wins
+1,4,1,2,A,0-0 Love-15 Love-30 15-30 Deuce Adv. B Deuce Adv. A A Wins
+1,4,1,3,A,0-0 15-Love 30-Love 40-Love 40-15 Adv. A A Wins
+1,4,1,4,A,0-0 15-Love 30-Love 40-Love A Wins
+1,4,1,5,A,0-0 15-Love 30-Love 40-Love A Wins
+1,4,1,6,B,0-0 Love-15 15-15 15-30 15-40 B Wins
+1,4,1,7,A,0-0 15-Love 15-15 30-15 40-15 A Wins
+1,4,2,1,A,0-0 15-Love 15-15 15-30 Deuce Adv. A A Wins
+1,4,2,2,A,0-0 15-Love 30-Love 40-Love A Wins
+1,4,2,3,A,0-0 15-Love 30-Love 40-Love 40-15 A Wins
+1,4,2,4,A,0-0 15-Love 30-Love 30-15 Deuce Adv. A Deuce Adv. A A Wins
+1,4,2,5,B,0-0 15-Love 15-15 30-15 Deuce Adv. B Deuce Adv. A Deuce Adv. B B Wins
+1,4,2,6,A,0-0 15-Love 30-Love 40-Love A Wins
+1,4,2,7,A,0-0 15-Love 15-15 30-15 40-15 A Wins
+1,5,1,1,A,0-0 Love-15 15-15 30-15 40-15 Adv. A A Wins
+1,5,1,2,A,0-0 15-Love 30-Love 30-15 40-15 A Wins
+1,5,1,3,A,0-0 Love-15 Love-30 15-30 Deuce Adv. A A Wins
+1,5,1,4,B,0-0 15-Love 15-15 15-30 Deuce Adv. B Deuce Adv. B B Wins
+1,5,1,5,A,0-0 15-Love 30-Love 30-15 Deuce Adv. A Deuce Adv. A Deuce Adv. A A Wins
+1,5,1,6,A,0-0 15-Love 30-Love 40-Love A Wins
+1,5,1,7,A,0-0 Love-15 15-15 30-15 40-15 A Wins
+1,5,2,1,A,0-0 Love-15 15-15 15-30 Deuce Adv. B Deuce Adv. A Deuce Adv. B Deuce Adv. A Deuce Adv. B Deuce Adv. B Deuce Adv. A A Wins
+1,5,2,2,A,0-0 Love-15 15-15 30-15 40-15 A Wins
+1,5,2,3,A,0-0 15-Love 30-Love 40-Love 40-15 A Wins
+1,5,2,4,A,0-0 15-Love 15-15 15-30 Deuce Adv. A A Wins
+1,5,2,5,A,0-0 15-Love 15-15 30-15 40-15 A Wins
+1,5,2,6,A,0-0 15-Love 30-Love 30-15 40-15 A Wins
+1,6,1,1,A,0-0 15-Love 15-15 30-15 40-15 A Wins
+1,6,1,2,A,0-0 15-Love 30-Love 40-Love A Wins
+1,6,1,3,B,0-0 15-Love 30-Love 30-15 Deuce Adv. B B Wins
+1,6,1,4,A,0-0 15-Love 30-Love 40-Love A Wins
+1,6,1,5,A,0-0 15-Love 15-15 15-30 15-40 Adv. B Deuce Adv. A Deuce Adv. A A Wins
+1,6,1,6,A,0-0 Love-15 Love-30 15-30 Deuce Adv. A A Wins
+1,6,1,7,A,0-0 15-Love 15-15 30-15 40-15 A Wins
+1,6,2,1,A,0-0 Love-15 Love-30 15-30 Deuce Adv. A A Wins
+1,6,2,2,A,0-0 15-Love 30-Love 30-15 Deuce Adv. A A Wins
+1,6,2,3,A,0-0 15-Love 15-15 30-15 40-15 Adv. A A Wins
+1,6,2,4,A,0-0 15-Love 30-Love 40-Love A Wins
+1,6,2,5,A,0-0 Love-15 15-15 30-15 40-15 Adv. A A Wins
+1,6,2,6,A,0-0 Love-15 15-15 15-30 Deuce Adv. A A Wins
+1,7,1,1,B,0-0 Love-15 Love-30 15-30 15-40 B Wins
+1,7,1,2,B,0-0 15-Love 15-15 15-30 Deuce Adv. B B Wins
+1,7,1,3,A,0-0 15-Love 15-15 30-15 40-15 A Wins
+1,7,1,4,A,0-0 Love-15 15-15 30-15 40-15 A Wins
+1,7,1,5,A,0-0 15-Love 15-15 30-15 40-15 Adv. A A Wins
+1,7,1,6,A,0-0 15-Love 30-Love 40-Love A Wins
+1,7,1,7,A,0-0 15-Love 30-Love 40-Love A Wins
+1,7,1,8,A,0-0 15-Love 30-Love 30-15 40-15 A Wins
+1,7,2,1,A,0-0 Love-15 15-15 30-15 40-15 Adv. A A Wins
+1,7,2,2,A,0-0 15-Love 30-Love 30-15 Deuce Adv. A A Wins
+1,7,2,3,A,0-0 15-Love 30-Love 30-15 Deuce Adv. A Deuce Adv. A Deuce Adv. A Deuce Adv. B Deuce Adv. A A Wins
+1,7,2,4,A,0-0 Love-15 15-15 30-15 40-15 A Wins
+1,7,2,5,B,0-0 Love-15 15-15 15-30 Deuce Adv. A Deuce Adv. B Deuce Adv. B Deuce Adv. A Deuce Adv. B Deuce Adv. A Deuce Adv. A Deuce Adv. B B Wins
+1,7,2,6,A,0-0 Love-15 15-15 30-15 40-15 Adv. A A Wins
+1,7,2,7,A,0-0 15-Love 30-Love 40-Love A Wins
+1,8,1,1,A,0-0 15-Love 30-Love 40-Love A Wins
+1,8,1,2,A,0-0 15-Love 30-Love 40-Love A Wins
+1,8,1,3,B,0-0 15-Love 30-Love 30-15 Deuce Adv. B B Wins
+1,8,1,4,A,0-0 15-Love 15-15 30-15 40-15 A Wins
+1,8,1,5,A,0-0 15-Love 30-Love 40-Love A Wins
+1,8,1,6,A,0-0 15-Love 30-Love 40-Love 40-15 A Wins
+1,8,1,7,A,0-0 15-Love 30-Love 30-15 40-15 A Wins
+1,8,2,1,A,0-0 15-Love 15-15 15-30 Deuce Adv. A A Wins
+1,8,2,2,A,0-0 Love-15 15-15 15-30 Deuce Adv. A A Wins
+1,8,2,3,A,0-0 15-Love 30-Love 40-Love A Wins
+1,8,2,4,A,0-0 Love-15 Love-30 Love-40 15-40 Adv. B Deuce Adv. A A Wins
+1,8,2,5,A,0-0 15-Love 30-Love 30-15 40-15 Adv. A A Wins
+1,8,2,6,A,0-0 Love-15 15-15 30-15 Deuce Adv. B Deuce Adv. A A Wins
+1,9,1,1,A,0-0 Love-15 Love-30 15-30 Deuce Adv. A A Wins
+1,9,1,2,A,0-0 Love-15 15-15 30-15 Deuce Adv. A A Wins
+1,9,1,3,A,0-0 15-Love 30-Love 30-15 Deuce Adv. B Deuce Adv. A Deuce Adv. B Deuce Adv. A A Wins
+1,9,1,4,A,0-0 15-Love 30-Love 40-Love A Wins
+1,9,1,5,A,0-0 15-Love 30-Love 40-Love A Wins
+1,9,1,6,A,0-0 Love-15 Love-30 15-30 15-40 Adv. B Deuce Adv. A A Wins
+1,9,2,1,A,0-0 15-Love 15-15 15-30 Deuce Adv. A A Wins
+1,9,2,2,A,0-0 Love-15 15-15 15-30 Deuce Adv. A A Wins
+1,9,2,3,A,0-0 15-Love 15-15 30-15 40-15 Adv. A A Wins
+1,9,2,4,B,0-0 Love-15 Love-30 Love-40 15-40 Adv. B B Wins
+1,9,2,5,A,0-0 15-Love 30-Love 40-Love A Wins
+1,9,2,6,A,0-0 15-Love 15-15 30-15 Deuce Adv. B Deuce Adv. A A Wins
+1,9,2,7,A,0-0 15-Love 30-Love 30-15 40-15 A Wins
+1,10,1,1,A,0-0 15-Love 15-15 15-30 15-40 Adv. B Deuce Adv. A A Wins
+1,10,1,2,A,0-0 15-Love 30-Love 40-Love 40-15 A Wins
+1,10,1,3,A,0-0 Love-15 15-15 15-30 15-40 Adv. B Deuce Adv. A A Wins
+1,10,1,4,B,0-0 Love-15 Love-30 Love-40 B Wins
+1,10,1,5,A,0-0 15-Love 30-Love 40-Love A Wins
+1,10,1,6,A,0-0 Love-15 Love-30 15-30 Deuce Adv. B Deuce Adv. A A Wins
+1,10,1,7,A,0-0 15-Love 15-15 30-15 40-15 A Wins
+1,10,2,1,A,0-0 15-Love 30-Love 40-Love A Wins
+1,10,2,2,A,0-0 15-Love 30-Love 30-15 40-15 Adv. A A Wins
+1,10,2,3,A,0-0 15-Love 30-Love 40-Love 40-15 A Wins
+1,10,2,4,A,0-0 15-Love 30-Love 40-Love A Wins
+1,10,2,5,A,0-0 15-Love 30-Love 40-Love 40-15 Adv. A A Wins
+1,10,2,6,A,0-0 15-Love 30-Love 30-15 40-15 Adv. A Deuce Adv. A A Wins
+2,1,1,1,A,0-0 Love-15 15-15 30-15 40-15 Adv. A A Wins
+2,1,1,2,B,0-0 Love-15 15-15 30-15 Deuce Adv. A Deuce Adv. B Deuce Adv. A Deuce Adv. B B Wins
+2,1,1,3,A,0-0 Love-15 15-15 30-15 Deuce Adv. A A Wins
+2,1,1,4,B,0-0 Love-15 Love-30 15-30 15-40 Adv. B B Wins
+2,1,1,5,B,0-0 Love-15 Love-30 15-30 Deuce Adv. B B Wins
+2,1,1,6,B,0-0 15-Love 15-15 15-30 Deuce Adv. A Deuce Adv. A Deuce Adv. B Deuce Adv. B B Wins
+2,1,1,7,B,0-0 Love-15 15-15 30-15 Deuce Adv. B Deuce Adv. B Deuce Adv. B B Wins
+2,1,1,8,B,0-0 Love-15 15-15 30-15 Deuce Adv. A Deuce Adv. B B Wins
+2,1,2,1,A,0-0 Love-15 15-15 30-15 Deuce Adv. A A Wins
+2,1,2,2,A,0-0 Love-15 15-15 15-30 Deuce Adv. A A Wins
+2,1,2,3,B,0-0 Love-15 15-15 15-30 Deuce Adv. B B Wins
+2,1,2,4,A,0-0 Love-15 15-15 30-15 Deuce Adv. A Deuce Adv. A Deuce Adv. A A Wins
+2,1,2,5,A,0-0 Love-15 15-15 15-30 15-40 Adv. B Deuce Adv. A Deuce Adv. A Deuce Adv. A A Wins
+2,1,2,6,A,0-0 15-Love 15-15 15-30 Deuce Adv. A A Wins
+2,1,2,7,B,0-0 15-Love 15-15 15-30 15-40 Adv. B B Wins
+2,1,2,8,B,0-0 Love-15 Love-30 Love-40 B Wins
+2,1,2,9,A,0-0 15-Love 30-Love 30-15 Deuce Adv. A A Wins
+2,1,3,1,B,0-0 15-Love 15-15 30-15 Deuce Adv. B Deuce Adv. B B Wins
+2,1,3,2,B,0-0 15-Love 15-15 15-30 Deuce Adv. B Deuce Adv. B B Wins
+2,1,3,3,B,0-0 Love-15 Love-30 Love-40 B Wins
+2,1,3,4,A,0-0 15-Love 30-Love 30-15 Deuce Adv. A Deuce Adv. A A Wins
+2,1,3,5,B,0-0 Love-15 Love-30 Love-40 15-40 Adv. B B Wins
+2,1,3,6,A,0-0 15-Love 15-15 30-15 40-15 Adv. A Deuce Adv. A A Wins
+2,1,3,7,A,0-0 15-Love 30-Love 30-15 40-15 Adv. A A Wins
+2,1,3,8,A,0-0 15-Love 30-Love 30-15 40-15 A Wins
+2,1,3,9,B,0-0 Love-15 Love-30 Love-40 15-40 B Wins
+2,1,3,10,B,0-0 Love-15 15-15 15-30 Deuce Adv. B B Wins
+2,2,1,1,B,0-0 Love-15 15-15 15-30 15-40 B Wins
+2,2,1,2,B,0-0 Love-15 15-15 30-15 Deuce Adv. B Deuce Adv. B Deuce Adv. B B Wins
+2,2,1,3,A,0-0 15-Love 30-Love 30-15 40-15 A Wins
+2,2,1,4,A,0-0 Love-15 Love-30 15-30 Deuce Adv. A Deuce Adv. A A Wins
+2,2,1,5,B,0-0 Love-15 15-15 30-15 40-15 Adv. A Deuce Adv. A Deuce Adv. B B Wins
+2,2,1,6,B,0-0 15-Love 15-15 15-30 Deuce Adv. B B Wins
+2,2,1,7,B,0-0 Love-15 15-15 15-30 15-40 Adv. B Deuce Adv. B Deuce Adv. B B Wins
+2,2,1,8,B,0-0 Love-15 15-15 15-30 Deuce Adv. B Deuce Adv. A Deuce Adv. B B Wins
+2,2,2,1,A,0-0 15-Love 30-Love 30-15 40-15 Adv. A Deuce Adv. A A Wins
+2,2,2,2,A,0-0 Love-15 15-15 15-30 Deuce Adv. A A Wins
+2,2,2,3,A,0-0 15-Love 15-15 15-30 15-40 Adv. B Deuce Adv. A Deuce Adv. A Deuce Adv. B Deuce Adv. A Deuce Adv. A Deuce Adv. B Deuce Adv. A A Wins
+2,2,2,4,A,0-0 Love-15 15-15 30-15 40-15 A Wins
+2,2,2,5,B,0-0 15-Love 30-Love 30-15 Deuce Adv. B B Wins
+2,2,2,6,A,0-0 15-Love 30-Love 30-15 40-15 Adv. A Deuce Adv. A A Wins
+2,2,2,7,B,0-0 Love-15 Love-30 15-30 15-40 Adv. B B Wins
+2,2,2,8,A,0-0 15-Love 15-15 30-15 40-15 Adv. A Deuce Adv. A A Wins
+2,2,3,1,B,0-0 15-Love 15-15 30-15 Deuce Adv. B B Wins
+2,2,3,2,A,0-0 Love-15 15-15 30-15 40-15 Adv. A A Wins
+2,2,3,3,B,0-0 Love-15 15-15 15-30 15-40 B Wins
+2,2,3,4,B,0-0 Love-15 Love-30 Love-40 15-40 Adv. B B Wins
+2,2,3,5,A,0-0 15-Love 30-Love 30-15 40-15 A Wins
+2,2,3,6,B,0-0 Love-15 15-15 15-30 Deuce Adv. B B Wins
+2,2,3,7,A,0-0 Love-15 15-15 30-15 40-15 A Wins
+2,2,3,8,B,0-0 Love-15 Love-30 Love-40 15-40 Adv. B Deuce Adv. B Deuce Adv. B Deuce Adv. B B Wins
+2,2,3,9,A,0-0 Love-15 15-15 30-15 Deuce Adv. A Deuce Adv. B Deuce Adv. A Deuce Adv. A A Wins
+2,2,3,10,A,0-0 15-Love 15-15 30-15 Deuce Adv. A A Wins
+2,2,3,11,A,0-0 Love-15 15-15 30-15 40-15 A Wins
+2,2,3,12,A,0-0 15-Love 30-Love 40-Love A Wins
+2,3,1,1,B,0-0 Love-15 15-15 15-30 15-40 Adv. B B Wins
+2,3,1,2,A,0-0 Love-15 15-15 30-15 40-15 A Wins
+2,3,1,3,B,0-0 Love-15 Love-30 15-30 15-40 B Wins
+2,3,1,4,B,0-0 Love-15 15-15 15-30 15-40 Adv. B Deuce Adv. B Deuce Adv. B B Wins
+2,3,1,5,A,0-0 Love-15 15-15 30-15 40-15 A Wins
+2,3,1,6,B,0-0 15-Love 15-15 15-30 15-40 Adv. B B Wins
+2,3,1,7,B,0-0 Love-15 15-15 15-30 Deuce Adv. B Deuce Adv. A Deuce Adv. B Deuce Adv. B Deuce Adv. B B Wins
+2,3,1,8,A,0-0 Love-15 15-15 30-15 Deuce Adv. B Deuce Adv. A A Wins
+2,3,1,9,A,0-0 15-Love 30-Love 40-Love A Wins
+2,3,1,10,B,0-0 Love-15 15-15 15-30 15-40 Adv. B Deuce Adv. B B Wins
+2,3,2,1,A,0-0 Love-15 15-15 15-30 Deuce Adv. B Deuce Adv. B Deuce Adv. A Deuce Adv. A Deuce Adv. A A Wins
+2,3,2,2,B,0-0 Love-15 Love-30 Love-40 B Wins
+2,3,2,3,B,0-0 15-Love 15-15 15-30 15-40 B Wins
+2,3,2,4,B,0-0 15-Love 15-15 15-30 Deuce Adv. B B Wins
+2,3,2,5,B,0-0 15-Love 15-15 15-30 Deuce Adv. A Deuce Adv. B B Wins
+2,3,2,6,B,0-0 Love-15 Love-30 Love-40 B Wins
+2,3,2,7,B,0-0 Love-15 Love-30 Love-40 15-40 B Wins
+2,4,1,1,B,0-0 Love-15 15-15 30-15 40-15 Adv. A Deuce Adv. A Deuce Adv. B B Wins
+2,4,1,2,B,0-0 15-Love 15-15 15-30 Deuce Adv. B B Wins
+2,4,1,3,A,0-0 15-Love 30-Love 30-15 40-15 Adv. A A Wins
+2,4,1,4,B,0-0 Love-15 Love-30 15-30 Deuce Adv. B B Wins
+2,4,1,5,A,0-0 15-Love 30-Love 40-Love 40-15 Adv. A A Wins
+2,4,1,6,B,0-0 15-Love 30-Love 30-15 40-15 Adv. A Deuce Adv. B B Wins
+2,4,1,7,B,0-0 Love-15 15-15 15-30 Deuce Adv. B B Wins
+2,4,1,8,A,0-0 15-Love 30-Love 30-15 Deuce Adv. A Deuce Adv. A A Wins
+2,4,1,9,B,0-0 15-Love 15-15 30-15 40-15 Adv. A Deuce Adv. A Deuce Adv. A Deuce Adv. B B Wins
+2,4,2,1,A,0-0 Love-15 Love-30 Love-40 15-40 Adv. B Deuce Adv. A A Wins
+2,4,2,2,B,0-0 15-Love 15-15 30-15 Deuce Adv. B B Wins
+2,4,2,3,A,0-0 Love-15 15-15 30-15 40-15 A Wins
+2,4,2,4,A,0-0 15-Love 15-15 30-15 Deuce Adv. A A Wins
+2,4,2,5,B,0-0 15-Love 15-15 15-30 15-40 B Wins
+2,4,2,6,B,0-0 Love-15 15-15 15-30 Deuce Adv. B Deuce Adv. A Deuce Adv. B B Wins
+2,4,2,7,A,0-0 15-Love 15-15 30-15 40-15 A Wins
+2,4,2,8,B,0-0 Love-15 Love-30 Love-40 15-40 B Wins
+2,4,2,9,B,0-0 15-Love 30-Love 40-Love 40-15 Adv. A Deuce Adv. B Deuce Adv. B B Wins
+2,4,2,10,B,0-0 15-Love 30-Love 30-15 Deuce Adv. B B Wins
+2,5,1,1,B,0-0 Love-15 Love-30 Love-40 B Wins
+2,5,1,2,B,0-0 Love-15 Love-30 15-30 15-40 Adv. B Deuce Adv. B Deuce Adv. B Deuce Adv. B B Wins
+2,5,1,3,A,0-0 Love-15 15-15 30-15 40-15 A Wins
+2,5,1,4,B,0-0 Love-15 15-15 15-30 Deuce Adv. B B Wins
+2,5,1,5,B,0-0 Love-15 Love-30 15-30 15-40 Adv. B B Wins
+2,5,1,6,B,0-0 Love-15 Love-30 Love-40 15-40 Adv. B Deuce Adv. B B Wins
+2,5,1,7,B,0-0 Love-15 15-15 15-30 Deuce Adv. B B Wins
+2,5,2,1,B,0-0 Love-15 15-15 15-30 15-40 B Wins
+2,5,2,2,A,0-0 15-Love 30-Love 30-15 Deuce Adv. A A Wins
+2,5,2,3,A,0-0 15-Love 30-Love 30-15 40-15 A Wins
+2,5,2,4,A,0-0 15-Love 15-15 15-30 Deuce Adv. B Deuce Adv. A Deuce Adv. A Deuce Adv. B Deuce Adv. A A Wins
+2,5,2,5,A,0-0 15-Love 15-15 30-15 Deuce Adv. A A Wins
+2,5,2,6,A,0-0 15-Love 30-Love 30-15 Deuce Adv. B Deuce Adv. A A Wins
+2,5,2,7,B,0-0 15-Love 15-15 15-30 15-40 Adv. B B Wins
+2,5,2,8,A,0-0 Love-15 15-15 15-30 15-40 Adv. B Deuce Adv. A A Wins
+2,5,3,1,B,0-0 Love-15 15-15 15-30 15-40 B Wins
+2,5,3,2,B,0-0 15-Love 15-15 15-30 15-40 B Wins
+2,5,3,3,B,0-0 15-Love 30-Love 30-15 Deuce Adv. A Deuce Adv. B Deuce Adv. A Deuce Adv. A Deuce Adv. B Deuce Adv. A Deuce Adv. B B Wins
+2,5,3,4,B,0-0 Love-15 Love-30 15-30 15-40 B Wins
+2,5,3,5,B,0-0 Love-15 15-15 15-30 Deuce Adv. B B Wins
+2,5,3,6,B,0-0 Love-15 Love-30 Love-40 15-40 B Wins
+2,6,1,1,B,0-0 15-Love 15-15 30-15 Deuce Adv. B B Wins
+2,6,1,2,A,0-0 15-Love 15-15 30-15 Deuce Adv. A A Wins
+2,6,1,3,B,0-0 Love-15 Love-30 Love-40 15-40 B Wins
+2,6,1,4,B,0-0 Love-15 15-15 15-30 Deuce Adv. B Deuce Adv. B Deuce Adv. B Deuce Adv. B B Wins
+2,6,1,5,A,0-0 15-Love 15-15 30-15 Deuce Adv. A A Wins
+2,6,1,6,A,0-0 15-Love 15-15 30-15 Deuce Adv. A A Wins
+2,6,1,7,A,0-0 Love-15 15-15 30-15 40-15 Adv. A A Wins
+2,6,1,8,B,0-0 15-Love 30-Love 30-15 Deuce Adv. B B Wins
+2,6,1,9,B,0-0 Love-15 15-15 15-30 15-40 B Wins
+2,6,1,10,B,0-0 Love-15 Love-30 15-30 15-40 B Wins
+2,6,2,1,A,0-0 15-Love 30-Love 40-Love 40-15 Adv. A A Wins
+2,6,2,2,A,0-0 Love-15 15-15 30-15 40-15 A Wins
+2,6,2,3,B,0-0 Love-15 15-15 15-30 Deuce Adv. B B Wins
+2,6,2,4,B,0-0 Love-15 15-15 30-15 Deuce Adv. A Deuce Adv. A Deuce Adv. B Deuce Adv. B B Wins
+2,6,2,5,B,0-0 Love-15 Love-30 Love-40 15-40 Adv. B Deuce Adv. A Deuce Adv. A Deuce Adv. A Deuce Adv. B B Wins
+2,6,2,6,B,0-0 Love-15 Love-30 Love-40 B Wins
+2,6,2,7,B,0-0 15-Love 15-15 30-15 40-15 Adv. A Deuce Adv. A Deuce Adv. B B Wins
+2,6,2,8,B,0-0 Love-15 15-15 30-15 Deuce Adv. B B Wins
+2,7,1,1,A,0-0 15-Love 30-Love 40-Love A Wins
+2,7,1,2,B,0-0 15-Love 15-15 15-30 Deuce Adv. B B Wins
+2,7,1,3,B,0-0 Love-15 15-15 30-15 Deuce Adv. B B Wins
+2,7,1,4,B,0-0 Love-15 15-15 30-15 Deuce Adv. A Deuce Adv. B B Wins
+2,7,1,5,B,0-0 15-Love 15-15 30-15 Deuce Adv. A Deuce Adv. B B Wins
+2,7,1,6,A,0-0 15-Love 30-Love 40-Love A Wins
+2,7,1,7,A,0-0 15-Love 30-Love 40-Love A Wins
+2,7,1,8,B,0-0 Love-15 Love-30 Love-40 B Wins
+2,7,1,9,B,0-0 15-Love 15-15 30-15 Deuce Adv. A Deuce Adv. B B Wins
+2,7,2,1,B,0-0 Love-15 Love-30 15-30 Deuce Adv. B Deuce Adv. B B Wins
+2,7,2,2,A,0-0 15-Love 30-Love 40-Love A Wins
+2,7,2,3,B,0-0 Love-15 Love-30 Love-40 15-40 B Wins
+2,7,2,4,B,0-0 Love-15 15-15 15-30 Deuce Adv. B Deuce Adv. A Deuce Adv. B B Wins
+2,7,2,5,B,0-0 Love-15 15-15 15-30 15-40 Adv. B B Wins
+2,7,2,6,B,0-0 Love-15 15-15 30-15 40-15 Adv. A Deuce Adv. B Deuce Adv. A Deuce Adv. A Deuce Adv. B B Wins
+2,7,2,7,B,0-0 Love-15 Love-30 15-30 15-40 B Wins
+2,8,1,1,B,0-0 15-Love 15-15 15-30 15-40 B Wins
+2,8,1,2,A,0-0 Love-15 Love-30 Love-40 15-40 Adv. B Deuce Adv. A A Wins
+2,8,1,3,A,0-0 Love-15 15-15 30-15 40-15 Adv. A Deuce Adv. A A Wins
+2,8,1,4,A,0-0 15-Love 30-Love 30-15 40-15 A Wins
+2,8,1,5,B,0-0 15-Love 30-Love 30-15 Deuce Adv. B B Wins
+2,8,1,6,B,0-0 Love-15 15-15 30-15 40-15 Adv. A Deuce Adv. A Deuce Adv. B Deuce Adv. A Deuce Adv. A Deuce Adv. B Deuce Adv. B B Wins
+2,8,1,7,B,0-0 Love-15 Love-30 15-30 15-40 Adv. B Deuce Adv. A Deuce Adv. B B Wins
+2,8,1,8,B,0-0 15-Love 15-15 15-30 Deuce Adv. B Deuce Adv. A Deuce Adv. B Deuce Adv. B B Wins
+2,8,1,9,B,0-0 Love-15 15-15 15-30 15-40 B Wins
+2,8,2,1,B,0-0 Love-15 Love-30 Love-40 15-40 Adv. B B Wins
+2,8,2,2,B,0-0 15-Love 15-15 15-30 15-40 Adv. B B Wins
+2,8,2,3,A,0-0 15-Love 30-Love 30-15 40-15 A Wins
+2,8,2,4,A,0-0 15-Love 30-Love 40-Love 40-15 Adv. A Deuce Adv. A A Wins
+2,8,2,5,B,0-0 Love-15 Love-30 Love-40 B Wins
+2,8,2,6,A,0-0 Love-15 15-15 15-30 Deuce Adv. A A Wins
+2,8,2,7,A,0-0 Love-15 15-15 15-30 Deuce Adv. A A Wins
+2,8,2,8,A,0-0 15-Love 30-Love 40-Love A Wins
+2,8,2,9,A,0-0 Love-15 15-15 15-30 Deuce Adv. A A Wins
+2,8,3,1,B,0-0 Love-15 15-15 15-30 15-40 B Wins
+2,8,3,2,B,0-0 15-Love 15-15 15-30 15-40 B Wins
+2,8,3,3,A,0-0 15-Love 15-15 30-15 Deuce Adv. B Deuce Adv. A A Wins
+2,8,3,4,B,0-0 15-Love 15-15 30-15 Deuce Adv. A Deuce Adv. A Deuce Adv. A Deuce Adv. A Deuce Adv. B B Wins
+2,8,3,5,B,0-0 Love-15 Love-30 Love-40 B Wins
+2,8,3,6,B,0-0 Love-15 Love-30 15-30 15-40 Adv. B B Wins
+2,8,3,7,B,0-0 15-Love 15-15 15-30 15-40 Adv. B B Wins
+2,9,1,1,A,0-0 15-Love 15-15 30-15 40-15 Adv. A A Wins
+2,9,1,2,B,0-0 15-Love 30-Love 30-15 Deuce Adv. A Deuce Adv. B B Wins
+2,9,1,3,B,0-0 Love-15 15-15 15-30 15-40 B Wins
+2,9,1,4,B,0-0 Love-15 15-15 15-30 Deuce Adv. B B Wins
+2,9,1,5,A,0-0 15-Love 30-Love 30-15 40-15 A Wins
+2,9,1,6,A,0-0 Love-15 15-15 15-30 15-40 Adv. B Deuce Adv. B Deuce Adv. B Deuce Adv. A Deuce Adv. A A Wins
+2,9,1,7,B,0-0 Love-15 Love-30 Love-40 B Wins
+2,9,1,8,B,0-0 Love-15 15-15 15-30 Deuce Adv. A Deuce Adv. B B Wins
+2,9,1,9,A,0-0 15-Love 30-Love 30-15 40-15 A Wins
+2,9,1,10,A,0-0 Love-15 Love-30 Love-40 15-40 Adv. B Deuce Adv. A A Wins
+2,9,1,11,B,0-0 Love-15 Love-30 15-30 Deuce Adv. A Deuce Adv. B Deuce Adv. A Deuce Adv. B B Wins
+2,9,1,12,A,0-0 15-Love 30-Love 30-15 40-15 Adv. A A Wins
+2,9,1,13,A,0-0 Love-15 Love-30 15-30 Deuce Adv. A A Wins
+2,9,2,1,B,0-0 Love-15 Love-30 Love-40 15-40 B Wins
+2,9,2,2,A,0-0 15-Love 15-15 30-15 40-15 Adv. A A Wins
+2,9,2,3,B,0-0 Love-15 Love-30 Love-40 15-40 B Wins
+2,9,2,4,A,0-0 Love-15 15-15 15-30 Deuce Adv. B Deuce Adv. A Deuce Adv. A A Wins
+2,9,2,5,A,0-0 15-Love 30-Love 30-15 Deuce Adv. A Deuce Adv. A A Wins
+2,9,2,6,A,0-0 Love-15 15-15 15-30 Deuce Adv. A A Wins
+2,9,2,7,B,0-0 Love-15 Love-30 Love-40 B Wins
+2,9,2,8,B,0-0 15-Love 30-Love 30-15 Deuce Adv. A Deuce Adv. B B Wins
+2,9,2,9,A,0-0 Love-15 15-15 15-30 Deuce Adv. A A Wins
+2,9,2,10,B,0-0 Love-15 Love-30 Love-40 15-40 Adv. B B Wins
+2,9,2,11,B,0-0 15-Love 30-Love 40-Love 40-15 Adv. A Deuce Adv. B B Wins
+2,9,2,12,A,0-0 15-Love 30-Love 40-Love A Wins
+2,9,2,13,A,0-0 15-Love 30-Love 40-Love 40-15 Adv. A A Wins
+2,10,1,1,A,0-0 15-Love 15-15 15-30 Deuce Adv. A A Wins
+2,10,1,2,B,0-0 Love-15 Love-30 Love-40 B Wins
+2,10,1,3,B,0-0 Love-15 Love-30 Love-40 B Wins
+2,10,1,4,A,0-0 Love-15 15-15 15-30 Deuce Adv. A A Wins
+2,10,1,5,A,0-0 Love-15 15-15 15-30 15-40 Adv. B Deuce Adv. A Deuce Adv. A A Wins
+2,10,1,6,A,0-0 15-Love 30-Love 40-Love A Wins
+2,10,1,7,B,0-0 15-Love 15-15 15-30 15-40 Adv. B B Wins
+2,10,1,8,A,0-0 Love-15 15-15 30-15 40-15 Adv. A A Wins
+2,10,1,9,A,0-0 Love-15 15-15 30-15 40-15 A Wins
+2,10,2,1,B,0-0 Love-15 15-15 15-30 Deuce Adv. A Deuce Adv. B B Wins
+2,10,2,2,A,0-0 15-Love 30-Love 30-15 Deuce Adv. B Deuce Adv. B Deuce Adv. A A Wins
+2,10,2,3,B,0-0 15-Love 15-15 15-30 15-40 Adv. B Deuce Adv. B B Wins
+2,10,2,4,A,0-0 Love-15 15-15 15-30 Deuce Adv. A Deuce Adv. A Deuce Adv. B Deuce Adv. A Deuce Adv. A A Wins
+2,10,2,5,B,0-0 15-Love 15-15 15-30 Deuce Adv. B B Wins
+2,10,2,6,B,0-0 Love-15 15-15 15-30 15-40 Adv. B Deuce Adv. B B Wins
+2,10,2,7,A,0-0 15-Love 30-Love 30-15 Deuce Adv. A A Wins
+2,10,2,8,B,0-0 15-Love 30-Love 30-15 Deuce Adv. B B Wins
+2,10,2,9,B,0-0 Love-15 Love-30 15-30 Deuce Adv. B B Wins
+2,10,3,1,B,0-0 Love-15 Love-30 Love-40 B Wins
+2,10,3,2,B,0-0 15-Love 15-15 15-30 Deuce Adv. B Deuce Adv. A Deuce Adv. B Deuce Adv. A Deuce Adv. B B Wins
+2,10,3,3,B,0-0 Love-15 Love-30 Love-40 15-40 B Wins
+2,10,3,4,A,0-0 15-Love 30-Love 40-Love 40-15 Adv. A Deuce Adv. B Deuce Adv. A A Wins
+2,10,3,5,B,0-0 15-Love 15-15 30-15 Deuce Adv. B B Wins
+2,10,3,6,A,0-0 Love-15 Love-30 15-30 Deuce Adv. A A Wins
+2,10,3,7,A,0-0 Love-15 15-15 15-30 15-40 Adv. B Deuce Adv. A A Wins
+2,10,3,8,A,0-0 Love-15 15-15 30-15 Deuce Adv. A A Wins
+2,10,3,9,A,0-0 Love-15 15-15 30-15 40-15 Adv. A Deuce Adv. A A Wins
+2,10,3,10,B,0-0 Love-15 Love-30 Love-40 15-40 B Wins
+2,10,3,11,B,0-0 Love-15 Love-30 Love-40 B Wins
+2,10,3,12,B,0-0 Love-15 Love-30 15-30 Deuce Adv. A Deuce Adv. A Deuce Adv. A Deuce Adv. B B Wins

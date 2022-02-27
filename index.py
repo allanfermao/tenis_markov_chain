@@ -1,5 +1,18 @@
 from collections import namedtuple
 import numpy as np
+import modules.log as log
+
+FIRST_MATCH = {
+    'p': 0.7,
+    'q': 0.3,
+    'n': 10
+}
+
+SECOND_MATCH = {
+    'p': 0.5,
+    'q': 0.5,
+    'n': 10
+}
 
 class Node:
     def __init__(self, label):
@@ -27,12 +40,13 @@ class Match:
         self.sets['A'] += sets['A']
         self.sets['B'] += sets['B']
     def __repr__(self) -> str:
-        return self.winner +  '\nSets:' + str(self.sets) + '\nGames: ' + str(self.games) + '\nScores: ' + str(self.scores)
+        return '\n\t' + self.winner +  '\n\tSets:' + str(self.sets) + '\n\tGames: ' + str(self.games) + '\n\tScores: ' + str(self.scores) + '\n'
 
 def simulacao(players, node0, p, q, match):
     currentNode = node0
     lastNode = node0
-    print(currentNode.label)
+    # print(currentNode.label)
+    log.setLogData("Pontos", log.getLogData("Pontos") + currentNode.label + " ")
     while currentNode.label != 'A Wins' and currentNode.label != 'B Wins':
         result = np.random.choice(players, 1, p=[p,q])[0]
         if(result == 'P'):
@@ -41,12 +55,18 @@ def simulacao(players, node0, p, q, match):
         else: 
             lastNode = currentNode.label
             currentNode = currentNode.q
-        print(currentNode.label)
+        # print(currentNode.label)
+        log.setLogData("Pontos", log.getLogData("Pontos") + currentNode.label + " ")
     # Score = namedtuple('Score', ['A','B'])
     # aux = currentNode.label.split('-')
     # score = Score(aux[0],aux[1])
+    log.setLogData("Pontos", log.getLogData("Pontos")[:-1])
+    log.setLogData("Vencedor", currentNode.label.split(' ')[0])
+    log.commitData()
+    log.resetLogData("Vencedor")
+    log.resetLogData("Pontos")
     match.includeScore(lastNode)
-    print()
+    # print()
     return result
 
 def setVerify(games, match):    
@@ -55,14 +75,15 @@ def setVerify(games, match):
         match.setGames(games)
         games['A'] = 0
         games['B'] = 0
-        print(player + ' Wins Set\n')
+        # print(player + ' Wins Set\n')
         return player
     if 6 in games.values() and abs(games['A'] - games['B']) >= 2:
         player = 'A' if games['A'] == 6 else 'B'
         match.setGames(games)
         games['A'] = 0
         games['B'] = 0
-        print(player + ' Wins Set\n')
+        # print(player + ' Wins Set\n')
+        
         return player
     return 0   
 
@@ -72,7 +93,7 @@ def matchVerify(sets, match):
         match.setSets(sets)
         sets['A'] = 0
         sets['B'] = 0
-        print(player + ' Wins Match\n')
+        # print(player + ' Wins Match\n')
         return player
     else: return 0
 
@@ -113,15 +134,23 @@ def main(p, q, n_simm):
     for i in range(0, n_simm):
         match = Match()
         resultMatch = 0
+        log.setLogData("Simulacao", i + 1)
+        setsCount = 1
         while resultMatch == 0: # enquanto a partida não termina
             resultSet = 0
+            log.setLogData("Set", setsCount)
+            gamesCount = 1
             while resultSet == 0: # enquanto o set não termina, continua executando games
+                log.setLogData("Game", gamesCount)
                 if simulacao(players, grafo[0], p, q, match) == 'P':
                     games['A'] += 1
                 else: games['B'] += 1
                 resultSet = setVerify(games, match)
+                gamesCount += 1
+            setsCount += 1
             sets[resultSet] += 1
             resultMatch = matchVerify(sets, match)
+        
         matches[resultMatch] += 1
         setattr(match, 'winner', resultMatch)
 
@@ -130,4 +159,10 @@ def main(p, q, n_simm):
     print(matchesStatistics)
         
 
-main(0.9, 0.1, 2)
+log.initLog("match_dataset.csv", ['Partida', 'Simulacao', 'Set', 'Game', 'Vencedor', 'Pontos'])
+
+log.setLogData("Partida", '1')
+main(FIRST_MATCH['p'], FIRST_MATCH['q'], FIRST_MATCH['n'])
+
+log.setLogData("Partida", '2')
+main(SECOND_MATCH['p'], SECOND_MATCH['q'], SECOND_MATCH['n'])
