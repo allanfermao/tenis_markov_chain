@@ -31,6 +31,11 @@ def initLog(fileName, headers):
     for header in headers:
         logData[header] = ""
 
+#Fecha e finaliza o arquivo de log
+def closeLog():
+    global logFile
+    logFile.close()
+
 #Escreve os dados presentes no objeto logData na proxima linha do arquivo
 def commitData():
     global writer

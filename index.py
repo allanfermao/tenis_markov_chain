@@ -1,17 +1,19 @@
 from collections import namedtuple
+from lib2to3.pgen2.pgen import generate_grammar
 import numpy as np
 import modules.log as log
+import modules.matchStatistics as matchStatistics 
 
 FIRST_MATCH = {
     'p': 0.7,
     'q': 0.3,
-    'n': 10
+    'n': 30
 }
 
 SECOND_MATCH = {
     'p': 0.5,
     'q': 0.5,
-    'n': 10
+    'n': 30
 }
 
 class Node:
@@ -156,13 +158,17 @@ def main(p, q, n_simm):
 
         matchesStatistics.append(match)
 
-    print(matchesStatistics)
+    # print(matchesStatistics)
         
 
-log.initLog("match_dataset.csv", ['Partida', 'Simulacao', 'Set', 'Game', 'Vencedor', 'Pontos'])
+log.initLog("results/match_dataset.csv", ['Partida', 'Simulacao', 'Set', 'Game', 'Vencedor', 'Pontos'])
 
 log.setLogData("Partida", '1')
 main(FIRST_MATCH['p'], FIRST_MATCH['q'], FIRST_MATCH['n'])
 
 log.setLogData("Partida", '2')
 main(SECOND_MATCH['p'], SECOND_MATCH['q'], SECOND_MATCH['n'])
+
+log.closeLog()
+
+matchStatistics.generateStatistics("results/match_dataset.csv")
