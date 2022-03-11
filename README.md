@@ -1,12 +1,12 @@
 # Cadeias de Markov na Simulação de um Jogo de Tênis
 
-Este trabalho busca simular uma jogo de tênis através de uma representação utilizando cadeias de Markov. Para isso, usamos uma estrutura similar à de um grafo para representar a cadeia, com nós e arestas. 
+Este trabalho busca simular um jogo de tênis através de uma representação utilizando cadeias de Markov. Para isso, usamos uma estrutura similar à de um grafo para representar a cadeia, com nós e arestas. 
 
 
 ## Estruturas
 
 Criamos uma estrutura de dados chamada **Node**, que representa cada estado da cadeia de Markov. Cada nó/estado possui uma pontuação correspondente, a qual está guardada no atributo ***label***.
-Há ainda os atributos ***p*** e ***q***, que representam, respectivamente, a probabilidade dos jogadores ***A*** e ***B*** marcarem um ponto, os quais chamamos de **ponteiros**. Inicialmente os nós/estados são criados especificando apenas o ***label*** e posteriormente os dois ponteiros são *setados* para poder referenciar outros nós/estados através da função ***pointers***.
+Há ainda os atributos ***p*** e ***q*** que representam, respectivamente, a probabilidade dos jogadores ***A*** e ***B*** marcarem um ponto. Chamamos esses atributos de **ponteiros**. Inicialmente os nós/estados são criados especificando apenas o ***label*** e posteriormente os dois ponteiros são *setados* para poder referenciar outros nós/estados através da função ***pointers***.
 
     class Node:
 		def __init__(self, label):
@@ -16,7 +16,7 @@ Há ainda os atributos ***p*** e ***q***, que representam, respectivamente, a pr
 	def pointers(self, p, q):
 		self.p = p
 		self.q = q
-Além disso, há outras três estruturas importantes para armazenar as informações gerados pela simulação. São três estruturas do tipo ***dictionary*** do Python chamadas ***games***, ***sets*** e ***matches*** que guardam o número de vitórias de cada jogador nesses conjuntos de mesmo nome através das chaves "***A***" e "***B***".
+Além disso, há outras três estruturas importantes para armazenar as informações geradas pela simulação. São três estruturas do tipo ***dictionary*** do Python chamadas ***games***, ***sets*** e ***matches*** que guardam o número de vitórias de cada jogador nesses conjuntos de mesmo nome através das chaves "***A***" e "***B***" que representam os jogadores.
 ## Funções
 
 ### *main(p, q, n_simm)*
