@@ -2,6 +2,11 @@
 
 Este trabalho busca simular um jogo de tênis através de uma representação utilizando cadeias de Markov. Para isso, usamos uma estrutura similar à de um grafo para representar a cadeia, com nós e arestas. 
 
+## Instalação
+Para executar as funcionalidades deste trabalho, será necessário ter o Python instalado. Para isso, basta acessa a [página de dowloads do Python](https://www.python.org/downloads/) e escolher o sistema operacional adequado. 
+Além disso, será necessário a instalação da biblioteca NumPy. Para isso, basta executar o seguinte comando no terminal:
+	pip install numpy
+
 
 ## Estruturas
 
@@ -24,7 +29,7 @@ Além disso, há outras três estruturas importantes para armazenar as informaç
 É a função principal do programa. Os parâmetros ***p*** e ***q*** representam as probabilidades de vitória dos jogadores A e B, respecticamente. O parâmetro ***n_simm*** representa o número de simulações/partidas a serem realizadas. A função é responsável por criar as estruturas de dados e fazer as conexões entre os nós/estados da cadeia. Além disso, cria as estruturas de repetição para simular várias partidas, com vários sets com vários games. Para isso, faz uma verificação a cada ponto (na função ***simulacao***) para verificar se um game chegou ao fim. Quando um game é finalizado, é feita uma verificação para saber se o set chegou ao fim (função ***setVerify***). Por fim, quando um set chega ao fim, é verificado se a partida chegou a fim (função ***matchVerify***). Sempre que cada um desses conjuntos é chega ao fim (pontos, games, sets e matches), suas respectivas estruturas são devidamente preenchidas e é realizada a persistência das informações relevantes em arquivos através do módulo ***log***.
 
 ### *simulacao(players, node0, p, q)*
-Realiza efetivamente a simulação que representa um game. O parâmetro players possui apenas as letras "**P**" e "**Q**" que representam os jogadores **A** e **B**, respectivamente. ***p*** e ***q*** representam as probabilidades dos jogadores **A** e **B** marcarem um ponto, respectivamente. A função caminha pela cadeia/grafo até encontrar o estado "***A Wins***" ou "***B Wins***", que marca o fim de um game.  A cada ponto, sorteia um dos jogadores para pontuar através da probabilidade ponderada com a função ***random.choice*** da biblioteca **NumPy**. Registra cada ponto no histórico da partida e retorna o vencedor do game.
+Realiza efetivamente a simulação que representa um game. O parâmetro players possui apenas as letras "**P**" e "**Q**" que representam os jogadores **A** e **B**, respectivamente. ***p*** e ***q*** representam as probabilidades dos jogadores **A** e **B** marcarem um ponto, respectivamente. ***node0*** representa o estado inicial da cadeia/game, quando nenhum jogador pontuou ainda (label "0-0"). A função caminha pela cadeia/grafo até encontrar o estado "***A Wins***" ou "***B Wins***", que marca o fim de um game.  A cada ponto, sorteia um dos jogadores para pontuar através da probabilidade ponderada com a função ***random.choice*** da biblioteca **NumPy**. Registra cada ponto no histórico da partida e retorna o vencedor do game.
 
 ### *setVerify(games)*
 Realiza a verificação para saber se um set terminou, analisando o número de games ganhos por cada jogador. O parâmetro ***games*** armazena o número de games ganhos por cada jogador. Um set termina quando um dos jogadores ganha 6 (quando está pelo menos dois games na frente do adversário) ou 7 (quando o jogo termina em 7x6 ou 7x5) games. Retorna o vencedor do set quando há um ou **0** caso contrário.
