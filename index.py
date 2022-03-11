@@ -1,4 +1,3 @@
-from collections import namedtuple
 from lib2to3.pgen2.pgen import generate_grammar
 import numpy as np
 import modules.log as log
@@ -27,27 +26,9 @@ class Node:
     def __repr__(self) -> str:
         return self.label + '\np: ' + self.p.label + '\nq: ' + self.q.label
 
-class Match:
-    def __init__(self):
-        self.winner = None
-        self.games = {'A': 0, 'B': 0}
-        self.sets = {'A': 0, 'B': 0}
-        self.scores = [] # vetor de namedtuple (A=x, B=y); o ganhador sempre tem +10 pontos em cada score
-    def includeScore(self, score):
-        self.scores.append(score)
-    def setGames(self, games):
-        self.games['A'] += games['A']
-        self.games['B'] += games['B']
-    def setSets(self, sets):
-        self.sets['A'] += sets['A']
-        self.sets['B'] += sets['B']
-    def __repr__(self) -> str:
-        return '\n\t' + self.winner +  '\n\tSets:' + str(self.sets) + '\n\tGames: ' + str(self.games) + '\n\tScores: ' + str(self.scores) + '\n'
-
-def simulacao(players, node0, p, q, match):
+def simulacao(players, node0, p, q):
     currentNode = node0
     lastNode = node0
-    # print(currentNode.label)
     log.setLogData("Pontos", log.getLogData("Pontos") + currentNode.label + " ")
     while currentNode.label != 'A Wins' and currentNode.label != 'B Wins':
         result = np.random.choice(players, 1, p=[p,q])[0]
@@ -57,45 +38,34 @@ def simulacao(players, node0, p, q, match):
         else: 
             lastNode = currentNode.label
             currentNode = currentNode.q
-        # print(currentNode.label)
         log.setLogData("Pontos", log.getLogData("Pontos") + currentNode.label + " ")
-    # Score = namedtuple('Score', ['A','B'])
-    # aux = currentNode.label.split('-')
-    # score = Score(aux[0],aux[1])
+
     log.setLogData("Pontos", log.getLogData("Pontos")[:-1])
     log.setLogData("Vencedor", currentNode.label.split(' ')[0])
     log.commitData()
     log.resetLogData("Vencedor")
     log.resetLogData("Pontos")
-    match.includeScore(lastNode)
-    # print()
     return result
 
-def setVerify(games, match):    
+def setVerify(games):    
     if 7 in games.values():
         player = 'A' if games['A'] == 7 else 'B'
-        match.setGames(games)
         games['A'] = 0
         games['B'] = 0
-        # print(player + ' Wins Set\n')
         return player
     if 6 in games.values() and abs(games['A'] - games['B']) >= 2:
         player = 'A' if games['A'] == 6 else 'B'
-        match.setGames(games)
         games['A'] = 0
         games['B'] = 0
-        # print(player + ' Wins Set\n')
         
         return player
     return 0   
 
-def matchVerify(sets, match):
+def matchVerify(sets):
     if 2 in sets.values():
         player = 'A' if sets['A'] == 2 else 'B'
-        match.setSets(sets)
         sets['A'] = 0
         sets['B'] = 0
-        # print(player + ' Wins Match\n')
         return player
     else: return 0
 
@@ -131,10 +101,7 @@ def main(p, q, n_simm):
     sets = {'A': 0, 'B': 0}
     matches = {'A': 0, 'B': 0}
 
-    matchesStatistics = []
-
     for i in range(0, n_simm):
-        match = Match()
         resultMatch = 0
         log.setLogData("Simulacao", i + 1)
         setsCount = 1
@@ -144,21 +111,16 @@ def main(p, q, n_simm):
             gamesCount = 1
             while resultSet == 0: # enquanto o set não termina, continua executando games
                 log.setLogData("Game", gamesCount)
-                if simulacao(players, grafo[0], p, q, match) == 'P':
+                if simulacao(players, grafo[0], p, q) == 'P':
                     games['A'] += 1
                 else: games['B'] += 1
-                resultSet = setVerify(games, match)
+                resultSet = setVerify(games)
                 gamesCount += 1
             setsCount += 1
             sets[resultSet] += 1
-            resultMatch = matchVerify(sets, match)
+            resultMatch = matchVerify(sets)
         
         matches[resultMatch] += 1
-        setattr(match, 'winner', resultMatch)
-
-        matchesStatistics.append(match)
-
-    # print(matchesStatistics)
         
 
 log.initLog("results/match_dataset.csv", ['Partida', 'Simulacao', 'Set', 'Game', 'Vencedor', 'Pontos'])
