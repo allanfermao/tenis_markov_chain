@@ -5,7 +5,8 @@ Este trabalho busca simular um jogo de tênis através de uma representação ut
 ## Instalação
 Para executar as funcionalidades deste trabalho, será necessário ter o Python instalado. Para isso, basta acessa a [página de dowloads do Python](https://www.python.org/downloads/) e escolher o sistema operacional adequado. 
 Além disso, será necessário a instalação da biblioteca NumPy. Para isso, basta executar o seguinte comando no terminal:
-	pip install numpy
+
+    pip install numpy
 
 
 ## Estruturas
@@ -41,10 +42,11 @@ Realiza a verificação para saber se uma partida (match) terminou, analisando o
 ## Análise
 
  - **Qual a probabilidade do Jogador A/B vencerem as Partidas 1 e as Partidas 2? Para responder, considere Xi uma VA que representa o número de vitórias do jogador i em cada caso, e que nosso espaço amostral contem 3 partidas. Mostre uma análise estatística baseada em média e desvio padrão em cada caso.**
- Os resultados dos cálculos estatísticos estão na tabela X.
+ Os resultados dos cálculos estatísticos estão na tabela X. Analisando os dados, vemos que eles fazem sentido dado o contexto e as condições iniciais da simulação. Em geral, na situação de Partida 1, onde o jogador A é bastante superior ao jogador B, o jogador A sempre vence tanto as partidas quanto os sets mas chega a perder alguns games, sendo que em uma das simulações o jogador B chegou a vencer 11,1% dos games disputados. Com relação à probabilidade de vitória do jogador A, ele obteve 100% para os sets e 100% para as partidas além de 89,9% para os games. 
+ No cenário B, apesar de os dois jogadores estarem mais equiparados em habilidade, os resultados continuam bastante favoráveis ao jogador A. Num primeiro momento, os valores parecem muito destoantes com relação às chances de cada jogador pontuar. Entretanto, os resultados são compreensíveis, já que mesmo com as chances de ambos os jogadores pontuarem serem próximas, isso não reflete necessariamente o resultado de uma partida. Apesar de o jogador B conseguir pontuar diversas vezes e conseguir ganhar vários games e vários sets, é preciso que haja uma combinação de games de um mesmo set e sets de uma mesma partida para que consiga efetivamente vencer um desses dois. Por esse motivo, os percentuais de vitória não se aproximam da distribuição de probabilidade com relação aos pontos, isto é, a probabilidade que um jogador tem de pontuar. A probabilidade de vitória do jogador A ficou em 96,66% enquanto a do jogador B foi de 3,34%.
  
  - **Qual a distribuição do número de sets, games e pontos nas Partidas 1 e 2? Mostre uma análise estatística baseada em média e desvio padrão em cada caso.**
- Os resultados dos cálculos estatísticos estão na tabela Y.
+ Os resultados dos cálculos estatísticos estão na tabela Y. Os motivos que justificam os valores estão explicitados no item anterior. 
  
  - **Selecione aleatoriamente, com distribuição uniforme, 10 simulações dentre as n existentes em seus datasets originais. Refaça as 2 análises anteriores e explique as diferenças e semelhanças entre os resultados obtidos.**
 Os resultados dos cálculos estatísticos estão na tabela Z.
