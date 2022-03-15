@@ -35,10 +35,10 @@ def generateStatistics(datasetPath, randomStatistics = False, randomChoices=10):
             chosenSimulations.sort()
             newMatchLines = []
             
-            for i in range(len(chosenSimulations)):
+            for j in range(len(chosenSimulations)):
                 for line in matchLines:
-                    if int(line['Simulacao']) == chosenSimulations[i]:
-                        line['Simulacao'] = i + 1
+                    if int(line['Simulacao']) == chosenSimulations[j]:
+                        line['Simulacao'] = j + 1
                         newMatchLines.append(line)
 
             matchLines = newMatchLines
@@ -163,3 +163,5 @@ def generateStatistics(datasetPath, randomStatistics = False, randomChoices=10):
         statisticsLog.setLogData('Media de Pontos/Game', meanPoints)
         statisticsLog.setLogData('Desvio padrao de pontos', stdDevPoints)
         statisticsLog.commitData()
+
+    statisticsLog.closeLog()
