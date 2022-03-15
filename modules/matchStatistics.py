@@ -1,4 +1,5 @@
 import csv
+import random
 import modules.log as statisticsLog
 import statistics
 
@@ -16,14 +17,31 @@ def readDataset(path):
     return lines, matches
 
 #Gera as estatisticas a partir do dataset informado
-def generateStatistics(datasetPath):
+def generateStatistics(datasetPath, randomStatistics = False, randomChoices=10):
     datasetLines, matchesCount = readDataset(datasetPath)
-    statisticsLog.initLog("results/match_statistics.csv", ['Partida', 'Vitorias A', 'Vitorias B', 'Sets de A', 'Sets de B', 'Games de A', 'Games de B', 'Vitorias A (%)', 'Vitorias B (%)', 'Sets de A (%)', 'Sets de B (%)', 'Games de A (%)', 'Games de B (%)', 'Media de Sets', 'Desv padrao de Sets', 'Media de Games/Set', 'Desvio padrao de Games', 'Media de Pontos/Game', 'Desvio padrao de pontos'])
+    logName = "results/match_random_" + str(randomChoices) + "_statistics.csv" if randomStatistics else "results/match_statistics.csv"
+    statisticsLog.initLog(logName, ['Partida', 'Vitorias A', 'Vitorias B', 'Sets de A', 'Sets de B', 'Games de A', 'Games de B', 'Vitorias A (%)', 'Vitorias B (%)', 'Sets de A (%)', 'Sets de B (%)', 'Games de A (%)', 'Games de B (%)', 'Media de Sets', 'Desv padrao de Sets', 'Media de Games/Set', 'Desvio padrao de Games', 'Media de Pontos/Game', 'Desvio padrao de pontos'])
 
     #Para cada partida (1 ou 2), faz as analises
     for i in range(1, matchesCount + 1):
         #Salva apenas as linhas da partida i
         matchLines = [ datasetLines[x] for x in range(len(datasetLines)) if int(datasetLines[x]['Partida']) == i ]
+
+        if(randomStatistics):
+            #Seleciona aleatoriamente as 10 simulacoes que serão utilizadas
+            chosenSimulations = [x for x in range(1, 31)]
+            random.shuffle(chosenSimulations)
+            chosenSimulations = chosenSimulations[:randomChoices]
+            chosenSimulations.sort()
+            newMatchLines = []
+            
+            for i in range(len(chosenSimulations)):
+                for line in matchLines:
+                    if int(line['Simulacao']) == chosenSimulations[i]:
+                        line['Simulacao'] = i + 1
+                        newMatchLines.append(line)
+
+            matchLines = newMatchLines
 
         #Valores que serao inseridos na linha da partida correspondente
         winA = 0

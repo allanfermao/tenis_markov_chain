@@ -122,7 +122,7 @@ def main(p, q, n_simm):
         
         matches[resultMatch] += 1
         
-
+'''
 log.initLog("results/match_dataset.csv", ['Partida', 'Simulacao', 'Set', 'Game', 'Vencedor', 'Pontos'])
 
 log.setLogData("Partida", '1')
@@ -132,5 +132,12 @@ log.setLogData("Partida", '2')
 main(SECOND_MATCH['p'], SECOND_MATCH['q'], SECOND_MATCH['n'])
 
 log.closeLog()
-
+'''
+#Gera as estatisticas do dataset completo
 matchStatistics.generateStatistics("results/match_dataset.csv")
+
+#Gera as estatisticas pegando apenas 3 simulações aleatorias de cada partida
+matchStatistics.generateStatistics("results/match_dataset.csv", randomStatistics=True, randomChoices=3)
+
+#Gera as estatisticas pegando apenas 10 simulações aleatorias de cada partida
+matchStatistics.generateStatistics("results/match_dataset.csv", randomStatistics=True)
